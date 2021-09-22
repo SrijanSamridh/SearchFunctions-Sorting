@@ -7,7 +7,7 @@ def SelectionSort(nums):
         for j in range(i, len(nums)):
             if nums[j] < nums[minpos]:
                 minpos = j
-        arr[i],arr[min_pos] = arr[min_pos], arr[i]
+        nums[i],nums[minpos] = nums[minpos], nums[i]
 
     # print(nums)
 
